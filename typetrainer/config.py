@@ -4,7 +4,10 @@ class Config(PySettings):
     FONT = 'sans 16'
     FONT_DOC = 'Font used in text entries'
 
-    KEYBOARD = 'n130'
+    # KEYBOARD = 'n130'
+    # KEYBOARD_DOC = 'Keyboard model and zones layout. One of (n130, n130_sdfv, n130_dvp)'
+
+    KEYBOARD = 'nNormal'
     KEYBOARD_DOC = 'Keyboard model and zones layout. One of (n130, n130_sdfv, n130_dvp)'
 
     TUTOR = 'en.basic'

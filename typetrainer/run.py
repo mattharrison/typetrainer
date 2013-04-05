@@ -47,6 +47,7 @@ def run():
     stat = FileStatistic(os.path.dirname(fake_stat))
 
     kbd_layout = getattr(kbd, config['KEYBOARD'] + '_keyboard')
+    print "KEYBOARD", kbd_layout
     app = Main(config, filler, stat, kbd.KeyboardDrawer(kbd_layout))
     app.window.show()
     idle(app.fill)
